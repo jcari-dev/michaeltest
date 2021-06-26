@@ -34,7 +34,7 @@ app.use(cors())
 
 
 
-const favoriteSongController = require('./controllers/favoriteSong')
+const favoriteSongController = require('./controllers/favoritesong.js')
 app.use('/favsong', favoriteSongController);
 // const index = require('././pages/index.js')
 app.get('/', (req, res) => {
